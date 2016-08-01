@@ -1,0 +1,192 @@
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Release\WypozyczalniaSamochodow.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Release\WypozyczalniaSamochodow.pdb
+C:\inetpub\wwwroot\ApplicationInsights.config
+C:\inetpub\wwwroot\roslyn\csc.exe
+C:\inetpub\wwwroot\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\inetpub\wwwroot\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\inetpub\wwwroot\roslyn\Microsoft.CodeAnalysis.dll
+C:\inetpub\wwwroot\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\inetpub\wwwroot\roslyn\Microsoft.CSharp.Core.targets
+C:\inetpub\wwwroot\roslyn\Microsoft.VisualBasic.Core.targets
+C:\inetpub\wwwroot\roslyn\System.Collections.Immutable.dll
+C:\inetpub\wwwroot\roslyn\System.Reflection.Metadata.dll
+C:\inetpub\wwwroot\roslyn\vbc.exe
+C:\inetpub\wwwroot\roslyn\VBCSCompiler.exe
+C:\inetpub\wwwroot\roslyn\VBCSCompiler.exe.config
+C:\inetpub\wwwroot\WypozyczalniaSamochodow.dll.config
+C:\inetpub\wwwroot\WypozyczalniaSamochodow.dll
+C:\inetpub\wwwroot\WypozyczalniaSamochodow.pdb
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\obj\Release\WypozyczalniaSamochodow.csprojResolveAssemblyReference.cache
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\ApplicationInsights.config
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\csc.exe
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\vbc.exe
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\VBCSCompiler.exe
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.dll.config
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.pdb
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Antlr3.Runtime.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.SqlServer.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Web.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.ApplicationInsights.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Newtonsoft.Json.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Owin.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Net.Http.Formatting.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Helpers.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Http.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Http.WebHost.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Mvc.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Optimization.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Razor.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Deployment.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Razor.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\WebGrease.dll
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Web.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.ApplicationInsights.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Helpers.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Mvc.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Optimization.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Razor.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Deployment.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Razor.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Antlr3.Runtime.pdb
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Newtonsoft.Json.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Net.Http.Formatting.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Http.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\System.Web.Http.WebHost.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\EntityFramework.SqlServer.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\baku\documents\visual studio 2015\Projects\WypozyczalniaSamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\ApplicationInsights.config
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\roslyn\csc.exe
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\roslyn\vbc.exe
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\roslyn\VBCSCompiler.exe
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.dll.config
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\WypozyczalniaSamochodow.pdb
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Antlr3.Runtime.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\EntityFramework.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\EntityFramework.SqlServer.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Web.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.ApplicationInsights.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Newtonsoft.Json.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Owin.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Net.Http.Formatting.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.Helpers.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.Http.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.Http.WebHost.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.Mvc.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.Optimization.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.Razor.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Deployment.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Razor.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\WebGrease.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.Web.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.ApplicationInsights.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.Helpers.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.Mvc.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.Optimization.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.Razor.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Deployment.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.WebPages.Razor.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Antlr3.Runtime.pdb
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Newtonsoft.Json.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Net.Http.Formatting.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.Http.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\System.Web.Http.WebHost.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\EntityFramework.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\EntityFramework.SqlServer.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\obj\Release\WypozyczalniaSamochodow.csprojResolveAssemblyReference.cache
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\obj\Release\WypozyczalniaSamochodow.dll
+C:\Users\baku\Documents\wypozyczalniasamochodow\WypozyczalniaSamochodow\obj\Release\WypozyczalniaSamochodow.pdb
