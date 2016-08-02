@@ -18,10 +18,24 @@ namespace WypozyczalniaSamochodow.Models
         }
     }
 
+    public class ApplicationUserStore : UserStore<ApplicationUser>
+    {
+        public ApplicationUserStore(ApplicationDbContext context) : base(context)
+        {
+        }
+    }
+
+    public class ApplicationUserManager : UserManager<ApplicationUser>
+    {
+        public ApplicationUserManager(IUserStore<ApplicationUser> store) : base(store)
+        {
+        }
+    }
+
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("CarRentalDB", throwIfV1Schema: false)
         {
         }
 

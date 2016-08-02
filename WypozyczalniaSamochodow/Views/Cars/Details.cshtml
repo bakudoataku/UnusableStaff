@@ -9,34 +9,45 @@
 <div>
     <h4>Car</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.license)
-        </dt>
+    <div class="col-lg-4 container">
+        <img src="/images/@Html.DisplayFor(model => model.ImageName).@Html.DisplayFor(model => model.ImageExtension)" alt="obrazek"/>
+    </div>
+    <div class="col-lg-8">
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.license)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.license)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.license)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.registrationDate)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.registrationDate)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.registrationDate)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.registrationDate)
+            </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.price)
-        </dt>
+            <dt>
+                @Html.DisplayNameFor(model => model.price)
+            </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.price)
-        </dd>
+            <dd>
+                @Html.DisplayFor(model => model.price)
+            </dd>
 
-    </dl>
+        </dl>
+    </div>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+<div class="col-lg-12">
+    <p>
+        @if(Roles.IsUserInRole("admin"))
+        {
+            @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) 
+            <p>|</p>
+        }
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</div>

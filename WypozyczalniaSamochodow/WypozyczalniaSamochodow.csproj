@@ -214,12 +214,12 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CarsController.cs" />
-    <Compile Include="Controllers\HelloWorldController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\DBConnection.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -297,8 +297,6 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\HelloWorld\Index.cshtml" />
-    <Content Include="Views\HelloWorld\Welcome.cshtml" />
     <Content Include="Views\Cars\Create.cshtml" />
     <Content Include="Views\Cars\Delete.cshtml" />
     <Content Include="Views\Cars\Details.cshtml" />

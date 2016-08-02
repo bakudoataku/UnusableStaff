@@ -1,16 +1,22 @@
 ﻿@model IEnumerable<WypozyczalniaSamochodow.Models.Car>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Our car list";
 }
 
-<h2>Index</h2>
+<h2>Our car list</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @if (Roles.IsUserInRole("admin"))
+    {
+        @Html.ActionLink("Create New", "Create")
+    }
 </p>
 <table class="table">
     <tr>
+        <th>
+
+        </th>
         <th>
             @Html.DisplayNameFor(model => model.license)
         </th>
@@ -26,6 +32,9 @@
 @foreach (var item in Model) {
     <tr>
         <td>
+            <img src="/images/@Html.DisplayFor(modelItem => item.ImageName).@Html.DisplayFor(modelItem => item.ImageExtension)" height="42" width="42"/>
+        </td>
+        <td>
             @Html.DisplayFor(modelItem => item.license)
         </td>
         <td>
@@ -35,9 +44,12 @@
             @Html.DisplayFor(modelItem => item.price)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+            @Html.ActionLink("Details", "Details", new { id = item.ID })
+            @if (Roles.IsUserInRole("admin"))
+            {
+                <p>|</p> @Html.ActionLink("Edit", "Edit", new { id = item.ID })
+                <p>|</p> @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+            }
         </td>
     </tr>
 }
