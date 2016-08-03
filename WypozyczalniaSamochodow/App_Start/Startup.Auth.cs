@@ -48,20 +48,20 @@ namespace WypozyczalniaSamochodow
             // This is similar to the RememberMe option when you log in.
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
-            var roleManager = new RoleManager<Microsoft.AspNet.Identity.EntityFramework.IdentityRole>(new RoleStore<IdentityRole>(new ApplicationDbContext()));
+            ApplicationDbContext context = new ApplicationDbContext();
+
+            var roleManager = new RoleManager<Microsoft.AspNet.Identity.EntityFramework.IdentityRole>(new RoleStore<IdentityRole>(context));
             if (!roleManager.RoleExists("Admin"))
                 roleManager.Create(new IdentityRole { Name = "Admin" });
 
             if (!roleManager.RoleExists("User"))
                 roleManager.Create(new IdentityRole { Name = "User" });
 
-            ApplicationDbContext context = new ApplicationDbContext();
-            
-            if (!searchUser("Admin").Result.UserName.Equals("Admin"))
+            var userManager = new UserManager<ApplicationUser>(new ApplicationUserStore(context));
+            var foundUser = userManager.FindByName("admin@niepodam.pl");
+            if (foundUser == null)
             {
-                var store = new UserStore<ApplicationUser>(context);
-                var userManager = new ApplicationUserManager(store);
-                var appUser = new ApplicationUser() { UserName = "Admin", Email = "razdwa@niepodam.pl" };
+                var appUser = new ApplicationUser { UserName = "admin@niepodam.pl", Email = "admin@niepodam.pl" };
                 userManager.Create(appUser, "Password1@");
                 userManager.AddToRole(appUser.Id, "Admin");
             }

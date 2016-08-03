@@ -7,16 +7,18 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using WypozyczalniaSamochodow.Models;
+using static WypozyczalniaSamochodow.Models.Car;
 
 namespace WypozyczalniaSamochodow.Controllers
 {
     public class CarsController : Controller
     {
-        Car Cars = new Car();
+        private CarRenatlDB db = new CarRenatlDB();
+
         // GET: Cars
         public ActionResult Index()
         {
-            return View(Cars.ToList());
+            return View(db.Cars.ToList());
         }
 
         // GET: Cars/Details/5
@@ -26,7 +28,7 @@ namespace WypozyczalniaSamochodow.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Car car = Cars.Find(id);
+            Car car = db.Cars.Find(id);
             if (car == null)
             {
                 return HttpNotFound();
@@ -35,7 +37,7 @@ namespace WypozyczalniaSamochodow.Controllers
         }
 
         // GET: Cars/Create
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Create()
         {
             return View();
@@ -46,12 +48,13 @@ namespace WypozyczalniaSamochodow.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Create([Bind(Include = "ID,license,registrationDate,price")] Car car)
         {
             if (ModelState.IsValid)
             {
-                Cars.Add(car);
+                db.Cars.Add(car);
+                db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
@@ -59,14 +62,14 @@ namespace WypozyczalniaSamochodow.Controllers
         }
 
         // GET: Cars/Edit/5
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Car car = Cars.Find(id);
+            Car car = db.Cars.Find(id);
             if (car == null)
             {
                 return HttpNotFound();
@@ -79,7 +82,7 @@ namespace WypozyczalniaSamochodow.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Edit(Car car)
         {
             if (ModelState.IsValid)
@@ -91,14 +94,14 @@ namespace WypozyczalniaSamochodow.Controllers
         }
 
         // GET: Cars/Delete/5
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Car car = Cars.Find(id);
+            Car car = db.Cars.Find(id);
             if (car == null)
             {
                 return HttpNotFound();
@@ -109,11 +112,12 @@ namespace WypozyczalniaSamochodow.Controllers
         // POST: Cars/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "Admin")]
         public ActionResult DeleteConfirmed(int id)
         {
-            Car car = Cars.Find(id);
-            Cars.Remove(car);
+            Car car = db.Cars.Find(id);
+            db.Cars.Remove(car);
+            db.SaveChanges();
             return RedirectToAction("Index");
         }
     }

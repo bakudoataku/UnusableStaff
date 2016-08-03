@@ -43,7 +43,7 @@
 </div>
 <div class="col-lg-12">
     <p>
-        @if(Roles.IsUserInRole("admin"))
+        @if(Roles.IsUserInRole("Admin"))
         {
             @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) 
             <p>|</p>

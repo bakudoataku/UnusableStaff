@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Configuration;
-using System.Data.SqlClient;
-using System.Data;
-using WypozyczalniaSamochodow.Helpers;
-using System.Collections.Generic;
-using System.Linq;
+using System.ComponentModel.DataAnnotations;
+using System.Data.Entity;
 
 namespace WypozyczalniaSamochodow.Models
 {
     public class Car
-    {
+    {   
+        [Key]
         public int ID { get; set; }
         public string license { get; set; }
         public DateTime registrationDate { get; set; }
@@ -17,8 +14,12 @@ namespace WypozyczalniaSamochodow.Models
         public string ImageExtension { get; set; }
         public decimal price { get; set; }
 
+        public class CarRenatlDB : ApplicationDbContext
+        {
+            public DbSet<Car> Cars { get; set; }
+        }
 
-        public void Add(Car car)
+        /*public void Add(Car car)
         {
             DBConnection.ExecuteQuery(
                 String.Format(@"INSERT INTO [dbo].[Cars]
@@ -59,6 +60,6 @@ namespace WypozyczalniaSamochodow.Models
         public void Remove(Car car)
         {
             DBConnection.ExecuteQuery(String.Format(@"DELETE FROM Cars WHERE id = {0}", car.ID));
-        }
+        }*/
     }
 }

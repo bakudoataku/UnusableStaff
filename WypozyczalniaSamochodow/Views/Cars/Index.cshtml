@@ -7,7 +7,7 @@
 <h2>Our car list</h2>
 
 <p>
-    @if (Roles.IsUserInRole("admin"))
+    @if (Roles.IsUserInRole("Admin"))
     {
         @Html.ActionLink("Create New", "Create")
     }
@@ -45,7 +45,7 @@
         </td>
         <td>
             @Html.ActionLink("Details", "Details", new { id = item.ID })
-            @if (Roles.IsUserInRole("admin"))
+            @if (Roles.IsUserInRole("Admin"))
             {
                 <p>|</p> @Html.ActionLink("Edit", "Edit", new { id = item.ID })
                 <p>|</p> @Html.ActionLink("Delete", "Delete", new { id = item.ID })

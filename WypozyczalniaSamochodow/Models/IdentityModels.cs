@@ -3,6 +3,19 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+using System;
+using System.Data.Entity.Infrastructure;
+using System.Data.Entity.ModelConfiguration;
+using System.Data.Entity.ModelConfiguration.Configuration;
+using System.Data.Entity.Validation;
+using System.Globalization;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Reflection;
+using System.Runtime.CompilerServices;
+
 
 namespace WypozyczalniaSamochodow.Models
 {
@@ -18,6 +31,16 @@ namespace WypozyczalniaSamochodow.Models
         }
     }
 
+    public class ApplicationRole : IdentityRole
+    {
+        public ApplicationRole() : base(){ }
+        public ApplicationRole(string name, string description) : base(name)
+        {
+            this.Desription = description;
+        }
+
+        public virtual string Desription { get; set; }
+    }
     public class ApplicationUserStore : UserStore<ApplicationUser>
     {
         public ApplicationUserStore(ApplicationDbContext context) : base(context)
