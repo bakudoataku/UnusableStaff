@@ -6,6 +6,8 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using WypozyczalniaSamochodow.Models;
+using Microsoft.AspNet.Identity.EntityFramework;
+using System.Threading.Tasks;
 
 namespace WypozyczalniaSamochodow
 {
@@ -46,6 +48,24 @@ namespace WypozyczalniaSamochodow
             // This is similar to the RememberMe option when you log in.
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
+            var roleManager = new RoleManager<Microsoft.AspNet.Identity.EntityFramework.IdentityRole>(new RoleStore<IdentityRole>(new ApplicationDbContext()));
+            if (!roleManager.RoleExists("Admin"))
+                roleManager.Create(new IdentityRole { Name = "Admin" });
+
+            if (!roleManager.RoleExists("User"))
+                roleManager.Create(new IdentityRole { Name = "User" });
+
+            ApplicationDbContext context = new ApplicationDbContext();
+            
+            if (!searchUser("Admin").Result.UserName.Equals("Admin"))
+            {
+                var store = new UserStore<ApplicationUser>(context);
+                var userManager = new ApplicationUserManager(store);
+                var appUser = new ApplicationUser() { UserName = "Admin", Email = "razdwa@niepodam.pl" };
+                userManager.Create(appUser, "Password1@");
+                userManager.AddToRole(appUser.Id, "Admin");
+            }
+
             // Uncomment the following lines to enable logging in with third party login providers
             //app.UseMicrosoftAccountAuthentication(
             //    clientId: "",
@@ -64,6 +84,15 @@ namespace WypozyczalniaSamochodow
             //    ClientId = "",
             //    ClientSecret = ""
             //});
+        }
+
+        public async Task<ApplicationUser> searchUser(string user)
+        {
+            ApplicationDbContext context = new ApplicationDbContext();
+            var store = new UserStore<ApplicationUser>(context);
+            var a = await store.FindByNameAsync(user);
+
+            return a;
         }
     }
 }
